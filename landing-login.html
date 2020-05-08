@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>AdminLTE 3 | Starter</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <style>
+
+    body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-header {
+      max-width: 96rem;
+      margin: auto;
+    }
+
+    .main-header {
+      border-bottom: 0px solid #dee2e6;
+
+    }
+
+    .main-footer {
+      background-color: #3c8dbc;
+      color: #ddd;
+    }
+
+    .main-footer a{
+
+      color: #22b;
+    }
+
+    body:not(.sidebar-mini-md) .main-footer {
+      width: 100%;
+      margin-left: 0px;
+    }
+
+    .main-footer-container {
+      max-width: 96rem;
+      margin: auto;
+      padding: 1rem;
+
+    }
+
+    .dark {
+      background-color: #abc;
+    }
+
+    .jumbotron {
+      background-color: #3c8dbc;
+      color: #fff;
+    }
+
+    .content-wrapper {
+        background: #fff;
+    }
+  </style>
+</head>
+<body class="hold-transition">
+<div class="wrapper">
+
+<div class='navbar-lightblue'>
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-dark navbar-lightblue ">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index3.html" class="nav-link">Αρχική</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Δοκιμή</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown show">
+        <a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
+          <i class="far fa-user"></i>
+          <span class="badge badge-warning navbar-badge">15</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right " style="left: inherit; right: 0px;">
+          <span class="dropdown-item dropdown-header">Δεν έχετε συνδεθεί</span>
+
+          <a href="/login" class="dropdown-item">
+            <i class="fas fa-key mr-2"></i>Σύνδεση</a>
+            <span class="float-right text-muted text-sm"></span>
+          </a>
+
+
+          <a href="#" class="dropdown-item dropdown-footer"></a>
+        </div>
+      </li>
+
+
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+</div>
+
+  <!-- Jumbo (Page header) -->
+  <div class="jumbotron jumbotron-fluid mb-0">
+   <div class="container">
+    <div class="row justify-content-center text-center">
+     <div class="col-md-10 col-lg-6">
+      <h1 class="display-5">Δοκιμαστική εφαρμογή</h1>
+
+      <p class="lead">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ligula viverra, faucibus erat ut, aliquam lacus.
+      </p>
+
+
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- /.jumbo -->
+
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper mt-5" >
+
+    <!-- Main content -->
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Πληροφορίες</h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ligula viverra, faucibus erat ut, aliquam lacus. Nunc non vulputate velit, non eleifend magna. Fusce sollicitudin mauris quam, at aliquet turpis bibendum non. Nam eget pretium leo, nec pretium velit. Nam ac ligula ultricies, cursus augue non, sollicitudin justo. Sed vulputate nec mauris non pretium. Nullam in ipsum nulla. Suspendisse mollis, enim non suscipit lacinia, tortor dolor scelerisque diam, ut ornare sapien lorem a lacus. Praesent viverra vestibulum dui, non ultrices dolor interdum tristique.
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body login-card-body">
+                <h2>Σύνδεση</h2>
+
+                  <form action="" method="post">
+                    <div class="input-group mb-3">
+                      <input type="email" class="form-control" placeholder="Email">
+                      <div class="input-group-append">
+                        <div class="input-group-text">
+                          <span class="fas fa-envelope"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="input-group mb-3">
+                      <input type="password" class="form-control" placeholder="Password">
+                      <div class="input-group-append">
+                        <div class="input-group-text">
+                          <span class="fas fa-lock"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <!-- /.col -->
+                      <div class="col-8">
+                        <button type="submit" class="btn btn-primary">Σύνδεση</button>
+                        <a class="btn btn-info " href="/help/">Βοήθεια</a>
+                      </div>
+                      <!-- /.col -->
+                      <div class="col-4">
+                        <div class="icheck-primary">
+                          <input type="checkbox" id="remember">
+                          <label for="remember">
+                            Remember Me
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+
+                </div><!-- /.login-card-body -->
+              </div><!-- /.card -->
+
+
+
+            </div> <!-- /.col -->
+        </div> <!-- /.row -->
+
+
+        <div class="row mt-3">
+            <div class="col-sm-4">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ligula viverra, faucibus erat ut, aliquam lacus. Nunc non vulputate velit, non eleifend magna. Fusce sollicitudin mauris quam, at aliquet turpis bibendum non. Nam eget pretium leo, nec pretium velit. Nam ac ligula ultricies, cursus augue non, sollicitudin justo. Sed vulputate nec mauris non pretium. Nullam in ipsum nulla. Suspendisse mollis, enim non suscipit lacinia, tortor dolor scelerisque diam, ut ornare sapien lorem a lacus. Praesent viverra vestibulum dui, non ultrices dolor interdum tristique.</p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ligula viverra, faucibus erat ut, aliquam lacus. Nunc non vulputate velit, non eleifend magna. Fusce sollicitudin mauris quam, at aliquet turpis bibendum non. Nam eget pretium leo, nec pretium velit. Nam ac ligula ultricies, cursus augue non, sollicitudin justo. Sed vulputate nec mauris non pretium. Nullam in ipsum nulla. Suspendisse mollis, enim non suscipit lacinia, tortor dolor scelerisque diam, ut ornare sapien lorem a lacus. Praesent viverra vestibulum dui, non ultrices dolor interdum tristique.</p>
+            </div>
+            <div class="col-sm-4">
+                <h2>Επικοινωνία</h2>
+                <address>
+                <strong>Αρχηγείο Λιμενικού Σώματος-Ελληνικής Ακτοφυλακής</strong>
+                <br>Ακτή Βασιλειάδη, Πύλες Ε1-Ε2
+                <br>18510 Πειραιάς<br />
+                <abbr title="Τηλεφωνικό Κέντρο">Τ:</abbr> (+30) 213 1371700 - 213 1374700<br>
+                <abbr title="Email">E:</abbr> <a href="mailto:contact@yna.gov.gr">contact@yna.gov.gr</a><br>
+              </address>
+            </div>
+        </div>
+        <!-- /.row -->
+
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+
+  <!-- Main Footer -->
+  <footer class="main-footer ">
+    <div class='main-footer-container'>
+      <!-- To the right -->
+      <div class="float-right d-none d-sm-inline">
+        Δοκιμή
+      </div>
+      <!-- Default to the left -->
+      <strong>Copyright &copy; 2020 <a href="https://adminlte.io">ΑΛΣ-ΕΛΑΚΤ</a>.</strong> All rights reserved.
+    </div>
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+</body>
+</html>
